@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+body {
+    background: #001e4d;
+  }
+
+.nav {
+    background: aliceblue;
+  }
+
+.level {
+    background-color: white;
+    margin: 0px auto;
+    border-radius: 10px;
+    height: 500px;
+    max-width: 900px;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+.story {
+    border: 1px solid grey;
+    padding: 5px;
+    height: 35px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-around;
+  }
+
+h3:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.h3_title {
+    width: 300px;
+}
