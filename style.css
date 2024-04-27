@@ -45,3 +45,35 @@ a {
 .h3_title {
     width: 300px;
 }
+
+@media only screen and (max-width: 560px) {
+  .story {
+    border: 1px solid grey;
+    padding: 5px;
+    height: 60px;
+    margin: 10px;
+    justify-content:space-around;
+    display: block;
+  }
+
+  .h3_title {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+  }
+
+  .level {
+    width: 90%;
+  }
+
+  h3 {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    list-style: circle;
+    width: auto;
+    max-width: 300px;
+    text-align: justify;
+    margin-left: 15px;
+  }
+}
