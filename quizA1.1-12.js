@@ -1,74 +1,74 @@
 const questions = [
     {
-        question: "Wo fahren Fatma und Sadja mit ihrer Klasse?",
+        question: "Was ist passiert heute?",
         answers: [
-            { text: "ans Meer", correct: true},
-            { text: "ins Ausland", correct: false},
-            { text: "in die Berge", correct: false},
-            { text: "in die Bar", correct: false},
+            { text: "Es ist Annas Geburtstag", correct: true},
+            { text: "Es ist Weihnachten", correct: false},
+            { text: "Es ist Ostern", correct: false},
+            { text: "Es ist ein gewöhnlicher Tag", correct: false},
         ]
     },
     {
-        question: "Womit fahren sie?",
+        question: "Was will Anna essen?",
         answers: [
-            { text: "mit dem Auto", correct: false},
-            { text: "mit dem Bus", correct: true},
-            { text: "mit dem Flugzeug", correct: false},
-            { text: "zu Fuß", correct: false},
+            { text: "alles!", correct: false},
+            { text: "Spaghetti und Salat", correct: false},
+            { text: "Sie weiß noch nicht", correct: true},
+            { text: "Nichts, sie will nur etwas trinken", correct: false},
         ]
     },
     {
-        question: "Wie ist die Fahrt ans Meer?",
+        question: "Was empfiehlt Fridolin?",
         answers: [
-            { text: "sehr Kurz", correct: false},
+            { text: "Spaghetti", correct: false},
+            { text: "die Suppen", correct: true},
             { text: "beide", correct: false},
-            { text: "Es gibt keine Fahrt!", correct: false},
-            { text: "sehr Lang", correct: true},
+            { text: "Nichts", correct: false},
         ]
     },
     {
-        question: "Wie ist das Hotel?",
+        question: "Was bestellt Fridolin?",
         answers: [
-            { text: "groß und alt", correct: true},
-            { text: "klein und alt", correct: false},
-            { text: "groß und neu", correct: false},
-            { text: "klein und neu", correct: false},
+            { text: "Kartoffelsuppe", correct: true},
+            { text: "Käse", correct: false},
+            { text: "eine Pizza", correct: false},
+            { text: "das Bier!!!", correct: false},
         ]
     },
     {
-        question: "Warum Sadja mag Hotel nicht?",
+        question: "Was bestellt Mathilde?",
         answers: [
-            { text: "weil es so alt ist und die Fenster und Türen kaputt sind", correct: true},
-            { text: "weil es sehr teuer ist", correct: false},
-            { text: "Sadja mag das Hotel", correct: false},
-            { text: "Sadja hat keine Ahnung warum sie Hotel mag nicht", correct: false},
+            { text: "auch eine Kartoffelsuppe", correct: false},
+            { text: "eine Tomatensuppe", correct: true},
+            { text: "die Gürke", correct: false},
+            { text: "nur Brot", correct: false},
         ]
     },
     {
-        question: "Was legen auf einem Tisch?",
+        question: "Was empfiehlt Mathilde?",
         answers: [
-            { text: "Tassen", correct: false},
-            { text: "Zeitungen", correct: true},
-            { text: "Bücher", correct: false},
-            { text: "Flaschen", correct: false},
+            { text: "nur Spaghetti", correct: false},
+            { text: "die Spaghetti mit Tomatensoße", correct: true},
+            { text: "Salat", correct: false},
+            { text: "Bier, nur Bier!", correct: false},
         ]
     },
     {
-        question: "Wer findet das Hotel super?",
+        question: "Was isst Anna jeden Tag zu Hause?",
         answers: [
-            { text: "Sadja", correct: false},
-            { text: "Fatma", correct: true},
-            { text: "ihre Lehrerin", correct: false},
-            { text: "alle", correct: false},
+            { text: "Spaghetti", correct: true},
+            { text: "Suppe", correct: false},
+            { text: "Käse", correct: false},
+            { text: "Brot", correct: false},
         ]
     },
     {
-        question: "Warum sind Fatma und Sadja sehr müde?",
+        question: "Wann kommt der Kellner zurück?",
         answers: [
-            { text: "Sie sind müde von der Reise", correct: true},
-            { text: "Sie haben viel gespielt", correct: false},
-            { text: "Sie haben viel gesprochen", correct: false},
-            { text: "Sie sind nicht müde", correct: false},
+            { text: "nach 15 minuten", correct: true},
+            { text: "nach eine Stunde", correct: false},
+            { text: "sehr spät", correct: true},
+            { text: "Sie kommt nicht zurück", correct: false},
         ]
     }
 ];

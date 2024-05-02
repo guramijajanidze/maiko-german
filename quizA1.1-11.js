@@ -1,29 +1,29 @@
 const questions = [
     {
-        question: "Wo fahren Fatma und Sadja mit ihrer Klasse?",
+        question: "Wo steht Tim?",
         answers: [
-            { text: "ans Meer", correct: true},
-            { text: "ins Ausland", correct: false},
-            { text: "in die Berge", correct: false},
-            { text: "in die Bar", correct: false},
+            { text: "im Bahnhof am Gleis 5", correct: true},
+            { text: "auf der Straße", correct: false},
+            { text: "im Haus", correct: true},
+            { text: "im Flughafen", correct: false},
         ]
     },
     {
-        question: "Womit fahren sie?",
+        question: "Wo fliegt Tim heute?",
         answers: [
-            { text: "mit dem Auto", correct: false},
-            { text: "mit dem Bus", correct: true},
-            { text: "mit dem Flugzeug", correct: false},
-            { text: "zu Fuß", correct: false},
+            { text: "in den Urlaub", correct: true},
+            { text: "auf der Geschäftsreise", correct: false},
+            { text: "keine Info", correct: false},
+            { text: "nach Hause", correct: false},
         ]
     },
     {
-        question: "Wie ist die Fahrt ans Meer?",
+        question: "Warum ist Tim nervös?",
         answers: [
-            { text: "sehr Kurz", correct: false},
+            { text: "weil er etwas vergessen hat", correct: false},
+            { text: "weil der Zug noch nicht da ist", correct: true},
             { text: "beide", correct: false},
-            { text: "Es gibt keine Fahrt!", correct: false},
-            { text: "sehr Lang", correct: true},
+            { text: "weil er hatweil er den Weg verloren hat", correct: false},
         ]
     },
     {
@@ -36,39 +36,39 @@ const questions = [
         ]
     },
     {
-        question: "Warum Sadja mag Hotel nicht?",
+        question: "Wie viele Personen sitzen im Zug?",
         answers: [
-            { text: "weil es so alt ist und die Fenster und Türen kaputt sind", correct: true},
-            { text: "weil es sehr teuer ist", correct: false},
-            { text: "Sadja mag das Hotel", correct: false},
-            { text: "Sadja hat keine Ahnung warum sie Hotel mag nicht", correct: false},
+            { text: "viele", correct: false},
+            { text: "nur drei", correct: true},
+            { text: "nur Tim", correct: false},
+            { text: "mehr als Zehn", correct: false},
         ]
     },
     {
-        question: "Was legen auf einem Tisch?",
+        question: "Welche Platz hat Tim?",
         answers: [
-            { text: "Tassen", correct: false},
-            { text: "Zeitungen", correct: true},
-            { text: "Bücher", correct: false},
-            { text: "Flaschen", correct: false},
+            { text: "die Nummer 23", correct: true},
+            { text: "die Nummer 32", correct: false},
+            { text: "die Nummer 12", correct: false},
+            { text: "die Nummer 13", correct: false},
         ]
     },
     {
-        question: "Wer findet das Hotel super?",
+        question: "Wann ist Tim am Flughafen?",
         answers: [
-            { text: "Sadja", correct: false},
-            { text: "Fatma", correct: true},
-            { text: "ihre Lehrerin", correct: false},
-            { text: "alle", correct: false},
+            { text: "um 8:30 Uhr", correct: true},
+            { text: "um 9:30 Uhr ", correct: false},
+            { text: "zu spät", correct: false},
+            { text: "zu früh", correct: false},
         ]
     },
     {
-        question: "Warum sind Fatma und Sadja sehr müde?",
+        question: "Wohin gehen Männer und Frauen auf den Straßen?",
         answers: [
-            { text: "Sie sind müde von der Reise", correct: true},
-            { text: "Sie haben viel gespielt", correct: false},
-            { text: "Sie haben viel gesprochen", correct: false},
-            { text: "Sie sind nicht müde", correct: false},
+            { text: "nach Hause", correct: false},
+            { text: "ins Kino", correct: false},
+            { text: "zur Arbeit", correct: true},
+            { text: "Wir wissen nicht", correct: false},
         ]
     }
 ];
