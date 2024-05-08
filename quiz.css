@@ -1,0 +1,7 @@
+.word {
+    display: inline;
+    height: 100px;
+    width: 150px;
+    background-color: hsla(0, 0%, 0%, 0.322);
+    
+}
