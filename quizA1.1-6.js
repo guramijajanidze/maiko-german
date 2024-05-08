@@ -11,17 +11,17 @@ const questions = [
     {
         question: "Was trägt Thalia heute?",
         answers: [
-            { text: "ein T-Shirt von Silbermond", correct: true},
             { text: "eine Jacke", correct: false},
             { text: "ein Pullover", correct: false},
+            { text: "ein T-Shirt von Silbermond", correct: true},
             { text: "ein Kleid", correct: false},
         ]
     },
     {
         question: "Wer sitzen in dem Bus?",
         answers: [
-            { text: "viele Studenten", correct: true},
             { text: "Thalias Nachbarn", correct: false},
+            { text: "viele Studenten", correct: true},
             { text: "Thalias Verwandte", correct: false},
             { text: "nur Thalia", correct: false},
         ]
@@ -38,9 +38,9 @@ const questions = [
     {
         question: "Was ist los mit dem Handy?",
         answers: [
-            { text: "Handyfällt nach unten, aber es ist nicht kaputt", correct: true},
             { text: "Handyfällt nach unten und es ist kaputt", correct: false},
             { text: "Thalia hat es verloren", correct: false},
+            { text: "Handyfällt nach unten, aber es ist nicht kaputt", correct: true},
             { text: "Nichts, alles in ordnung", correct: false},
         ]
     },

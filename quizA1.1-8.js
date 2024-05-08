@@ -67,7 +67,7 @@ const questions = [
         answers: [
             { text: "Die Polizistin hat Monas Fahhrad gefunden", correct: true},
             { text: "Wie schade, aber Monas Fahhrad ist nicht gefunden", correct: false},
-            { text: "Die Polizistin behält Fahrrad für sich", correct: true},
+            { text: "Die Polizistin behält Fahrrad für sich", correct: false},
             { text: "Wir wissen noch nicht", correct: false},
         ]
     }
