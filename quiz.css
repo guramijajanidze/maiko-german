@@ -20,29 +20,31 @@
 
 .bigcont {
     width: 90%;
-    min-height: 400px;
+    min-height: auto;
     background: rgb(211, 211, 211);
     position: relative;
     top: 50px;
     margin: 0 auto;
     border-radius: 10px;
-    padding: 5%;
+    padding: 10px 5px;
 }  
 
 .semi-big-cont {
     margin: 0 auto;
-    border: 1px solid red;
-    display: flex;
+    align-content: center;
+    border: 1px solid yellow;
+    height: auto;
     justify-content: center;
 }
 
 /* THE MAINCONTAINER HOLDS EVERYTHING */
-.maincontainer{
-    width: 150px;
+.maincontainer {
+    width: 107px;
     height: 180px;
     background: none;
-    margin: 10px;
-    display: flex;
+    margin: 0 auto;
+    display: inline-flex;
+    margin: 5px;
   }
   
   /* THE CARD HOLDS THE FRONT AND BACK FACES */
@@ -74,9 +76,8 @@
     overflow: hidden;
     background: #ffc728;
     color: #000;
-    display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
   
   /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
@@ -93,7 +94,6 @@
     color: #333;
     text-align: center;
     transform: rotateY(180deg);
-    display: flex;
     align-items: center;
     justify-content:center;
   }
@@ -103,18 +103,53 @@
 
   .thefront p {
     font-family: 'zilla slab', sans-serif;
-    padding: 30px;
     font-size: 12px;
     text-align: center;
     position: relative;
-    font-weight: bold;     
+    font-weight: bold;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;     
   }
 
   .theback p {
     font-family: 'zilla slab', sans-serif;
-    padding: 30px;
     font-weight: normal;
     font-size: 12px;
     text-align: center;
     font-style: italic;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+
+@media only screen and (max-width: 294px) {
+  .bigcont {
+    width: 127px;
+  }
+}
+
+@media only screen and (min-width: 295px) and (max-width: 411px) {
+  .bigcont {
+    width: 251px;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 547px) {
+  .bigcont {
+    width: 372px;
+  }
+  
+}
+
+@media only screen and (min-width: 548px) and (max-width: 682px) {
+  .bigcont {
+    width: 494px;
+  }
+}
+
+@media only screen and (min-width: 682px) and (max-width: 682px) {
+  .bigcont {
+    width: 494px;
+  }
+}
