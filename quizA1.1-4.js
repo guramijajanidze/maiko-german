@@ -27,7 +27,7 @@ const questions = [
         ]
     },
     {
-        question: "Was findet Mohammed zuerst??",
+        question: "Was findet Mohammed zuerst?",
         answers: [
             { text: "die Eier", correct: true},
             { text: "das Apfel", correct: false},

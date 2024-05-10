@@ -57,7 +57,7 @@ const questions = [
         question: "Wo hat die Frau die Jacke gefunden?",
         answers: [
             { text: "an der Kasse", correct: false},
-            { text: "in derUmkleidekabine", correct: true},
+            { text: "in der Umkleidekabine", correct: true},
             { text: "Sie hat die Jacke gefunden nicht", correct: false},
             { text: "Sie weiß nicht", correct: false},
         ]

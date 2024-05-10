@@ -45,15 +45,6 @@ const questions = [
         ]
     },
     {
-        question: "Wer steht links neben Sandra?",
-        answers: [
-            { text: "ein Mann", correct: true},
-            { text: "ihr Ehemann", correct: false},
-            { text: "ihr Bruder", correct: false},
-            { text: "eine Frau", correct: false},
-        ]
-    },
-    {
         question: "Wie ist die Natur in Bayern?",
         answers: [
             { text: "sehr schön", correct: true},
